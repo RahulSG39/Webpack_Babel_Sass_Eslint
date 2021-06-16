@@ -1,0 +1,14 @@
+@import "variables";
+
+h1 {
+  color: $red;
+  transform: rotate(-7deg);
+
+  span {
+    color: green;
+  }
+
+  &:hover {
+    color: darken($red, 25%);
+  }
+}
